@@ -1,0 +1,43 @@
+# Arquivos de Ambientes Virtuais
+# NUNCA envie sua pasta de ambiente virtual
+venv/
+.venv/
+env/
+.env/
+env.bak/
+venv.bak/
+
+# Arquivos de cache e compilados do Python
+# O Python cria isso automaticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas de instalação e distribuição
+build/
+dist/
+*.egg-info/
+develop-eggs/
+eggs/
+
+# Arquivos de segredos e configurações locais (MUITO IMPORTANTE)
+.env
+*.env
+secrets.ini
+config.ini
+
+# Arquivos de IDEs e editores de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de log e bases de dados locais
+*.log
+*.sqlite3
+*.db
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
