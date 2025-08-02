@@ -46,7 +46,7 @@ while True:
                 print("You have exceeded your daily withdrawal limit")
     elif option=="E":
         title("EXTRACT", 50)
-        print(f"Your Extract is here:\n0{extract}")
+        print(f"Your Extract is here:\n{extract}")
         while True:
             p=input("press enter to go back: ")
             if p == "":
