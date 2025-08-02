@@ -25,6 +25,7 @@ while True:
     if option=="D":
         title("DEPOSIT AREA", 50)
         balance_status(balance)
+        print(f"Deposit limit is $ 1500.00")
         p = quest(f"Would you like to deposit")
         if p == "Y":
             result_num,result_txt=deposit("Enter your deposit amount: $ ")
