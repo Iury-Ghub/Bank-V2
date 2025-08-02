@@ -68,9 +68,3 @@ def quest(tex="",y="Y",n="N"):
 def balance_status(b):
     print(f"Your balance : $ {b:.2f}".center(50))
     print("-"*50)
-
-
-
-
-
-
