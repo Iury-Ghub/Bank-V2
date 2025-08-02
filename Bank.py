@@ -9,6 +9,7 @@ To select any option => ''')
 
 balance=0
 limit_withdrawal=500.00
+deposit_limit=1500.00
 extract=""
 withdrawal_number=0
 WITHDRAWAL_LIMIT=3
@@ -25,10 +26,10 @@ while True:
     if option=="D":
         title("DEPOSIT AREA", 50)
         balance_status(balance)
-        print(f"Deposit limit is $ 1500.00")
+        print(f"Deposit limit is $ {deposit_limit}")
         p = quest(f"Would you like to deposit")
         if p == "Y":
-            result_num,result_txt=deposit("Enter your deposit amount: $ ")
+            result_num,result_txt=deposit("Enter your deposit amount: $ ", deposit_limit)
             balance+=result_num
             extract+=result_txt
     elif option=="W":
