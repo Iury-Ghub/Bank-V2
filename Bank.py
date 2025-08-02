@@ -1,4 +1,4 @@
-from utilities import *
+from utilities.Functions import *
 bank=('''
 [D] Deposit
 [W] withdrawal
