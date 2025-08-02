@@ -21,6 +21,7 @@ while True:
         option=input(bank).strip().upper()[0]
     except:
         option=0
+
     if option=="D":
         title("DEPOSIT AREA", 50)
         balance_status(balance)
