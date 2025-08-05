@@ -1,16 +1,17 @@
 # 🇧🇷 Versão em Português
 
-## 🏦 Projeto de Sistema Bancário v1.0
+## 🏦 Projeto de Sistema Bancário v2.0
 
 Este projeto é uma simulação de um sistema bancário desenvolvido em Python, criado para aplicar e consolidar conhecimentos em programação. 
 
 A aplicação funciona via console (terminal) e permite que o usuário realize operações bancárias básicas de forma interativa.
 
-Este desafio foi uma excelente oportunidade para praticar:
+Este desafio foi uma excelente oportunidade para praticar e melhorar minhas capacidade com:
 * **Operadores** para os cálculos financeiros.
 * **Estruturas condicionais e de repetição** para controlar o fluxo do programa.
 * **Manipulação de strings** para formatar o extrato e interagir com o usuário.
 * **Funções** para modularizar o código e criar um sistema organizado.
+* **Exceções** para tratamento de erros e melhora de maleabilidade do sistema.
 
 ---
 
@@ -19,6 +20,9 @@ Este desafio foi uma excelente oportunidade para praticar:
 * **Depositar**: Adicionar fundos à conta.
 * **Sacar**: Retirar fundos da conta, com um limite de 3 saques diários.
 * **Visualizar Extrato**: Exibir todas as transações e o saldo atual da conta.
+* **Nova Conta** : Criar uma nova conta a partir de um usuário
+* **Lista de Contas** : Mostra todas as contas criadas
+* **Novo Usuário**: Cria um novo usuário com (Nome,Data de nascimento e CPF)
 * **Sair**: Encerrar o programa.
 
 ---
@@ -26,7 +30,7 @@ Este desafio foi uma excelente oportunidade para praticar:
 ### 🛠️ Tecnologias e Conceitos Aplicados
 
 * **Linguagem:** Python 3
-* **Conceitos:** Lógica de programação, estruturas de dados, funções, operadores e controle de fluxo.
+* **Conceitos:** Lógica de programação, estruturas de dados, funções, operadores, controle de fluxo e Exceções
 * **Bibliotecas:** Apenas recursos nativos do Python.
 
 ---
@@ -57,31 +61,34 @@ Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
 # 🇺🇸 English Version
 
-## 🏦 Simple Banking System Project v1.0
+## 🏦 Simple Banking System Project v2.0
 
 This project is a simulation of a banking system developed in Python, created to apply and consolidate programming knowledge. The application runs in the console (terminal) and allows the user to perform basic banking operations interactively.
 
 This challenge was an excellent opportunity to practice:
+
 * **Operators** for financial calculations.
 * **Conditional and loop structures** to control the program flow.
-* **String manipulation** to format the bank statement and interact with the user.
+* **String manipulation** to format the statement and interact with the user.
 * **Functions** to modularize the code and create an organized system.
-
+* **Exceptions** for error handling and improving system flexibility.
 ---
 
 ### ✨ Features
 
 * **Deposit**: Add funds to the account.
-* **Withdraw**: Withdraw funds from the account, with a daily limit of 3 withdrawals.
+* **Withdraw**: Withdraw funds from the account, with a limit of 3 daily withdrawals.
 * **View Statement**: Display all transactions and the current account balance.
+* **New Account**: Create a new account associated with a user.
+* **List Accounts**: Shows all created accounts.
+* **New User**: Creates a new user with a Name, Date of Birth, and CPF (Brazilian individual taxpayer registry).
 * **Exit**: Terminate the program.
-
 ---
 
 ### 🛠️ Technologies and Concepts Applied
 
 * **Language:** Python 3
-* **Concepts:** Programming logic, data structures, functions, operators, and flow control.
+* **Concepts:** Programming logic, data structures, functions, operators, flow control, and Exceptions.
 * **Libraries:** Only native Python features.
 
 ---
